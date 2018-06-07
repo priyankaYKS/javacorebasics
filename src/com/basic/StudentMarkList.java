@@ -3,8 +3,8 @@ package com.basic;
 public class StudentMarkList {
 	int registernumber;
 	String Studentname;
-	String totalsubject;
-	private char[] setStudentname;
+	 String totalsubject;
+	
 	public StudentMarkList() {
 		
 		
@@ -15,15 +15,21 @@ public class StudentMarkList {
 		this.Studentname=studentname;
 		this.totalsubject=totalsubject;
 		}
-	public static void main(String[] args)
-	{
-		StudentMarkList studentone=new StudentMarkList();
-	
-		studentone.setStudentname("priyanka");
-		System.out.println(studentone.setStudentname);
+	public void print() {
+		System.out.println(this.registernumber);
+		System.out.println(this.Studentname);
+		System.out.println(this.totalsubject);
 		
 	}
-	
+	public static void main(String[] args)
+	{
+		StudentMarkList studentone=new StudentMarkList(36,"sara","five");
+		
+studentone.print();
+		
+	}
+
+
 	
 	
 

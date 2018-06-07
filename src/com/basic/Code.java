@@ -1,13 +1,20 @@
 package com.basic;
 
+import java.util.Scanner;
+
 public class Code {
 	public static void main(String[] args)
 	{
-		int n;
-		n = 1;
-		while (n< 10 )
-		{
-		System.out.println( n++ );
+		
+		
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+	int c=a+b;
+	System.out.println(css);
+		
+		
+		
 }
 	}
-}
+
