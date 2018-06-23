@@ -11,8 +11,7 @@ public class CloneExample implements clonable {
 		 CloneExample ceTwo= (CloneExample)ceOne.clone();
 		 System.out.println(ceOne.hashCode() +" === "+ceTwo.hashCode());
 		}
-		catch (Exception e)
-		{
+		catch (Exception e){
 			e.printStackTrace();
 		}
 		

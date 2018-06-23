@@ -21,9 +21,10 @@ public class ThreadExample extends Thread{
 			
 		}
 	public static void main(String[] args) {
-		ThreadExample one=new ThreadExample("one");
+		ThreadExample one=new  ThreadExample("one");
 		ThreadExample two=new ThreadExample("two");
-		/* try {
+		
+	/* try {
 		 * one.join();
 		 * two.join();
 		 }catch(InterrupedException e) {
